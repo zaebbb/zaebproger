@@ -94,6 +94,12 @@ window.addEventListener("DOMContentLoaded", () => {
           nextEl: '.swiper_button_next',
           prevEl: '.swiper_button_prev',
         },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+        }
     })
 
   setInterval(() => {

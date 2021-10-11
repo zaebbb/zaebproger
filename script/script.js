@@ -112,7 +112,7 @@ window.addEventListener("DOMContentLoaded", () => {
   
 
   async function databaseSlider(){
-    let api = 'https://zaebbb.github.io/zaebproger/json/slider_db.json';
+    let api = '/zaebproger/json/slider_db.json';
     const loadData = await fetch(api);
     const readData = await loadData.json();
 
@@ -132,7 +132,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   async function databaseSlider_2(){
-    let api = 'https://zaebbb.github.io/zaebproger/json/slider_db_2.json';
+    let api = '/zaebproger/json/slider_db_2.json';
     const loadData = await fetch(api);
     const readData = await loadData.json();
 
@@ -146,7 +146,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   async function databaseSlider_3(){
-    let api = 'https://zaebbb.github.io/zaebproger/json/slider_db_3.json';
+    let api = '/zaebproger/json/slider_db_3.json';
     const loadData = await fetch(api);
     const readData = await loadData.json();
 
@@ -160,7 +160,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   async function cards(){
-    let api = 'https://zaebbb.github.io/zaebproger/json/cards.json';
+    let api = '/zaebproger/json/cards.json';
     const loadData = await fetch(api);
     const readData = await loadData.json();
 

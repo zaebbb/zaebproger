@@ -19,8 +19,9 @@
     outline: none;
     scroll-behavior: smooth;
 }
+html,
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 ::-webkit-scrollbar{
     width: 0;
